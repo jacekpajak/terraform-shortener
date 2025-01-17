@@ -1,0 +1,60 @@
+# Compiled Object files
+*.o
+*.so
+*.a
+
+# Go Binaries
+*.exe
+*.dll
+*.dylib
+*.test
+*.out
+bootstrap
+
+# Vendor Directory (if not using Go Modules)
+vendor/
+
+# Go Modules
+go.mod
+go.sum
+
+# Go Coverage Files
+*.cover
+*.cov
+
+# Logs and Debug Files
+*.log
+*.tmp
+*.swp
+
+# Editor-specific Files
+*.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Terraform State Files
+terraform.tfstate
+terraform.tfstate.*
+
+# Terraform Plan Files
+*.tfplan
+*.tfstate.backup
+
+# Terraform Cache Files
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive Variable Files
+*.auto.tfvars
+*.tfvars
+
+# Terraform Crash Logs
+crash.log
+
+# AWS Credential Files
+.aws-sam/
+.env
+*.bak
+
+deploy.zip
